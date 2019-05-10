@@ -48,6 +48,8 @@ Tools include:
     traceroute
     traceroute6
 
+    iperf3
+
     ssh
     ssh-add
     ssh-agent
@@ -56,7 +58,7 @@ Tools include:
     ssh-keyscan
     ssh-pkcs11-helper
 
-    telnet
+    telnest
 
     net-snmp-create-v3-user
     snmpbulkget
