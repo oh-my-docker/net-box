@@ -49,6 +49,10 @@ Tools include:
     traceroute6
 
     iperf3
+    dig
+    whois
+    nslookup
+    nmap
 
     ssh
     ssh-add

@@ -7,7 +7,9 @@ RUN apk update && apk upgrade && \
     apk add --no-cache openssh-client && \
     apk add --no-cache busybox-extras && \
     apk add --no-cache curl && \
-    apk add --no-cache iperf3
+    apk add --no-cache iperf3 && \
+    apk add --no-cache bind-tools && \
+    apk add --no-cache nmap
 
 WORKDIR /omd
 
