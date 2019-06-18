@@ -61,6 +61,7 @@ Tools include:
     ssh-keygen
     ssh-keyscan
     ssh-pkcs11-helper
+    scanssh
 
     telnest
 
