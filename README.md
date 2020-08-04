@@ -2,6 +2,8 @@
 
 [![Docker Repository on Quay](https://quay.io/repository/omd/net-box/status "Docker Repository on Quay")](https://quay.io/repository/omd/net-box)
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/xiaopeng163/net-box?style=plastic)
+
 Provide some network tools for network engineers.
 
 ## How to use
