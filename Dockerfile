@@ -10,7 +10,8 @@ RUN apk update && apk upgrade && \
     apk add --no-cache iperf3 && \
     apk add --no-cache bind-tools && \
     apk add --no-cache nmap && \
-    apk add --no-cache scanssh
+    apk add --no-cache scanssh && \
+    apk add --no-cache mtr
 
 WORKDIR /omd
 

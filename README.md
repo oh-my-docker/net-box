@@ -44,9 +44,11 @@ SNMPv2-MIB::sysName.0 = STRING: aa-bb-cc-r1
 
 Tools include:
 
+    ping
     ping6
     traceroute
     traceroute6
+    mtr
 
     iperf3
     dig
