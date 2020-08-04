@@ -8,10 +8,16 @@ Provide some network tools for network engineers.
 
 ## How to use
 
-Pull the image firstly
+You can build the image by yourselves, or pull the image from quay.io
 
 ```
 $ docker pull quay.io/omd/net-box
+```
+
+or from docker hub
+
+```
+$ docker pull xiaopeng163/net-box
 ```
 
 Some examples like:
