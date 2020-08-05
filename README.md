@@ -47,6 +47,17 @@ Created directory: /var/lib/net-snmp/mib_indexes
 SNMPv2-MIB::sysName.0 = STRING: aa-bb-cc-r1
 ```
 
+**it will be handy to use alias**
+
+```
+$ alias netbox="docker run --rm -it quay.io/omd/net-box"
+```
+
+then just use 
+
+```
+$ netbox snmpget -v 2c -c public 1.1.1.1 sysName.0
+```
 
 ## Tools include
 
