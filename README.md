@@ -73,7 +73,7 @@ Tools include:
     ssh-pkcs11-helper
     scanssh
 
-    telnest
+    telnet
 
     net-snmp-create-v3-user
     snmpbulkget

@@ -4,6 +4,8 @@ LABEL maintainer="Peng Xiao <xiaoquwl@gmail.com>"
 
 RUN apk update && apk upgrade && \
     apk add --no-cache net-snmp-tools && \
+    mkdir /var/lib/net-snmp && \
+    mkdir /var/lib/net-snmp/mib_indexes && \
     apk add --no-cache openssh-client && \
     apk add --no-cache busybox-extras && \
     apk add --no-cache curl && \
