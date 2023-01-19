@@ -1,5 +1,6 @@
 # Net-Box
 
+![build workflow](https://github.com/oh-my-docker/net-box/actions/workflows/build.yml/badge.svg)
 
 Provide some network tools for network engineers.
 
