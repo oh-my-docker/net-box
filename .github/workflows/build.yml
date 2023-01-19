@@ -1,5 +1,10 @@
 name: docker image build and push
-on: [push]
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'Dockerfile'
 jobs:
   build:
     runs-on: ubuntu-latest
